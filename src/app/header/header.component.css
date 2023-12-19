@@ -1,0 +1,9 @@
+header {
+	height: auto;
+	/* background: #000; */
+}
+.logo img{
+	width: 120px;
+	cursor: pointer;
+	transition: all 1s;
+}
