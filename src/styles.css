@@ -21,7 +21,7 @@ body {
 }
 nav {
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 	top: 0;
 	position: relative;
 	display: flex;
@@ -106,6 +106,7 @@ a, button {
 .quote {
 	width: 600px;
 	transform: translateY(-50px);
+	margin-top: 50px;
 }
 .quote h5 {
 	margin-top: 20px;
@@ -211,7 +212,7 @@ a, button {
 	opacity: 1;
 }
 /*Common things in all sections*/
-#about_section, #portfolio_section, #team_section, #services_section, #contactus_section {
+#about_section, #team_section, #services_section, #contactus_section {
 	font-family: 'Open Sans', sans-serif;
 	color: #2E3D49;
 	position: relative;

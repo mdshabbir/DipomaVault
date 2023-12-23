@@ -7,7 +7,7 @@
 	font-size: 50px;
 	text-align: center;
 	color: #fff;
-	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/b1.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("../../images/extra/b1.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: cursive;
@@ -16,7 +16,7 @@
 .smbox {
 	display: flex;
 	flex-wrap: wrap;
-	transform: translateY(-100px);
+	transform: translateY(-9px);
 	justify-content: center;
 }
 .smbox span {
@@ -40,4 +40,11 @@
 	font-size: 20px;
 	color: #272529;
 	font-family: cursive;
+}
+#portfolio_section{
+  text-align: center;
+}
+.content{
+	position: relative;
+
 }
