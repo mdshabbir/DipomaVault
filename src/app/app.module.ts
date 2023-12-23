@@ -15,6 +15,8 @@ import { SlidingInformationComponent } from './sliding-information/sliding-infor
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { CollegeComponent } from './college/college.component';
+import { CollegedetailComponent } from './college/collegedetail/collegedetail.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { LoginComponent } from './login/login.component';
     SlidingInformationComponent,
     FooterComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    CollegeComponent,
+    CollegedetailComponent
   ],
   imports: [
     BrowserModule,
